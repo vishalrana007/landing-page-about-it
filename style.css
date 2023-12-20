@@ -1,0 +1,85 @@
+#logo_mcm
+{
+    height: 50px;
+}
+#menu_bar
+{
+cursor: pointer;
+
+
+}
+#menu_bar a:hover{
+    color: gray;
+}
+#video_1
+{
+   
+    height: 800px;
+
+    
+
+}
+#sec_1
+{
+    width: 70%;
+    height: 800px;
+    float: right;
+    margin-top: -800px;
+}
+#map
+{
+    z-index: -1;
+}
+#footer
+{height: 500px;
+    background: #03a0f5;
+    color: white;
+    cursor: pointer;
+}
+#gall_1
+{
+    font-size: 48px;
+ 
+}
+#hoc:hover
+{
+    scale: 1.1;
+    transition: 1s ease-in-out;
+}
+#g_1:hover
+{
+    scale: 1.2;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 2px 8px 5px ;
+}
+#cr
+{
+    z-index: 1;
+    margin-top: -165px;
+}
+#imggs_1:hover
+{
+    scale: 1.3;
+    transition: 0.8s ease-in-out;
+}
+
+/* responsive */
+ @media (max-width:420px) {
+    #sec_1{
+       z-index: 1;
+       width: 100%;
+    }
+    #video_1{
+        margin-top: -290px;
+    }
+    #form{
+        margin-top: 65px;
+    }
+    #footer{
+        height: 100%;
+
+    }
+    #sub{
+        display: none;
+    }
+} 
